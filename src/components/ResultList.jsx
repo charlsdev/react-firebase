@@ -43,7 +43,7 @@ function ResultList({ change, setChange }) {
 
    const deleteItem = async (idItem, nameItem) => {
       Swal.fire({
-         title: 'EELIMINAR REGISTRO',
+         title: 'ELIMINAR REGISTRO',
          text: `Deseas eliminar el registro de ${nameItem}?`,
          icon: 'warning',
          showCancelButton: true,
