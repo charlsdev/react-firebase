@@ -10,6 +10,7 @@ body {
 
 .container {
    margin-top: 90px !important;
+   margin-bottom: 50px !important;
 }
 
 label {
@@ -84,7 +85,7 @@ table tbody tr td {
 }
 
 header {
-   position: absolute;
+   position: fixed;
    background: #ff6e7a;
    color: #333;
    font-size: 1.5rem;
@@ -97,7 +98,7 @@ header {
 }
 
 footer {
-   position: absolute;
+   position: fixed;
    background: #ff6e7a;
    color: #333;
    font-size: .85rem;

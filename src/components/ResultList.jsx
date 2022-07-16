@@ -80,14 +80,14 @@ function ResultList({ change, setChange }) {
          <table className="table table-sm table-bordered">
             <thead className="">
                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Peso</th>
-                  <th scope="col">Estatura</th>
-                  <th scope="col">IMC</th>
-                  <th scope="col">Cla. OMS</th>
-                  <th scope="col">Des. Popular</th>
-                  <th scope="col">Eliminar</th>
+                  <th nowrap="true" scope="col">#</th>
+                  <th nowrap="true" scope="col">Nombre</th>
+                  <th nowrap="true" scope="col">Peso</th>
+                  <th nowrap="true" scope="col">Estatura</th>
+                  <th nowrap="true" scope="col">IMC</th>
+                  <th nowrap="true" scope="col">Cla. OMS</th>
+                  <th nowrap="true" scope="col">Des. Popular</th>
+                  <th nowrap="true" scope="col">Eliminar</th>
                </tr>
             </thead>
             <tbody>
