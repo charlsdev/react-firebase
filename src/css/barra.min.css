@@ -1,0 +1,36 @@
+/* ?Diseño del Scroll */
+/* *Tamaño del scroll */
+*::-webkit-scrollbar {
+   width: 7px;
+}
+
+/* *Estilos barra (thumb) de scroll */
+*::-webkit-scrollbar-thumb {
+   background: #0e8b7d;
+   border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:active {
+   background-color: #999;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+   background: #ff7979;
+   box-shadow: 0 0 2px 1px #00000033;
+}
+
+/* *Estilos track de scroll */
+*::-webkit-scrollbar-track {
+   background: #f8f8f880;
+   border-radius: 4px;
+}
+
+*::-webkit-scrollbar-track:hover,
+*::-webkit-scrollbar-track:active {
+   background: #fff;
+}
+
+*::-webkit-scrollbar:horizontal {
+   height: 4px;
+   /* display: none; */
+}
